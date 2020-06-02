@@ -1,0 +1,14 @@
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar1 {
+    float: left;
+    
+}
+
+#navbar2 {
+    float: right;
+}

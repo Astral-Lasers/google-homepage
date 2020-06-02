@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 
 <html>
-    <head></head>
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
     
     <body>
             <nav>
+                <ul id="navbar">                    
+                    <div id="navbar1">
+                        <li><a href="About">About</a></li>
+                        <li><a href="Store">Store</a></li>
+                    </div>
 
-                <ul>
-                    <li><a href="About">About</a></li>
-                    <li><a href="Store">Store</a></li>
-                    <li><a href="Gmail">Gmail</a></li>
-                    <li><a href="Images">Images</a></li>
+                    <div id="navbar2" >
+                        <li><a href="Gmail">Gmail</a></li>
+                        <li><a href="Images">Images</a></li>
+                    </div>
                 </ul>
-
             </nav>
 
-            <img src="googlelogo_color_272x92dp.png">
+            <main>
+                <img id="google" src="googlelogo_color_272x92dp.png">
 
-            <form class="search-bar">
-                <div>
-                    <label for="search-bar"></label>
-                    <input type="search" id="search-bar">
-                    <input type="submit" value="Google Search">
+                <form id="searchbar">
+                    <label for="search"></label>
+                    <input type="search" id="search">
+                    
+                    <div>
+                        <input type="submit" value="Google Search">
+                        <button class="lucky">I'm Feeling Lucky</button>
+                    </div>
+                </form>
+            </main>
 
-                    <input type="submit" value="I'm Feeling Lucky">
-                </div>
-                
-            </form>
-
+            <footer id="aboutus" >
+                <ul>
+                    <li><a href="Advertising">Advertising</a></li>
+                    <li><a href="Business">Business</a></li>
+                    <li><a href="How Search Works">How Search Works</a></li>
+                </ul>
+            </footer>
     </body>
 </html>
