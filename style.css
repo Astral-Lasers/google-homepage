@@ -1,14 +1,47 @@
 #navbar {
-    list-style-type: none;
-    margin: 0;
     padding: 0;
+    list-style-type: none;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
-#navbar1 {
+a:link {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+a:visited {
+    color: rgb(71, 71, 71);
+}
+
+#google_apps {
+    width: 24px;
+}
+
+#signin {
+    padding: 7px 13px 7px 13px;
+    background-color: rgb(65, 133, 211);
+    color:rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 2px;
+    font-weight: 900;
+}
+
+#navbar1 {   
+    display: flex;
     float: left;
-    
+    width: 4.39%;
+    justify-content: space-between;
+    margin: 10px 0px 0px 17px;
 }
 
 #navbar2 {
+    display: flex;
     float: right;
+    width: 11.3%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 28px 0px 0px;
 }
+
