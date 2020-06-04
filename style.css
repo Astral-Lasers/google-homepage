@@ -1,9 +1,13 @@
 #navbar {
     padding: 0;
     list-style-type: none;
-    font-size: 13px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 13px arial, sans-serif;
+}
 
+#aboutus {
+    padding: 0;
+    list-style-type: none;
+    font: 13px arial, sans-serif;
 }
 
 a:link {
@@ -15,17 +19,31 @@ a:visited {
     color: rgb(71, 71, 71);
 }
 
-#google_apps {
-    width: 24px;
+a:hover {
+    text-decoration: underline;
+}
+
+#googleapps {
+    display: block;
+    width: 16px;
+    filter: contrast(10%);
+}
+
+#googleapps:hover {
+    filter: contrast(100%);
 }
 
 #signin {
-    padding: 7px 13px 7px 13px;
+    padding: 7.5px 12.5px 7.5px 12.5px;
     background-color: rgb(65, 133, 211);
     color:rgb(255, 255, 255);
     border-style: none;
     border-radius: 2px;
     font-weight: 900;
+}
+
+#signin:focus {
+    outline: none;
 }
 
 #navbar1 {   
@@ -39,9 +57,65 @@ a:visited {
 #navbar2 {
     display: flex;
     float: right;
-    width: 11.3%;
     justify-content: space-between;
     align-items: center;
-    margin: 3px 28px 0px 0px;
+    position: relative;
+    width: 11.65%;
+    right: 22px;
+    top: 3px;
 }
 
+main {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#search {
+    width: 500px;
+    height: 35px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 20px;
+    padding: 0 0 0 50px;
+}
+
+#search:hover {
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.20)
+}
+
+#search:focus {
+    outline: none;
+}
+
+#searchicon {
+    position: absolute;
+    align-items: flex-end;
+}
+
+
+#item1 {
+    justify-self: center;
+}
+
+#item2 {
+    justify-self: center;
+    align-items: center;
+}
+
+#item3 {
+    justify-self: center;
+}
+
+#footer1 {
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    width: 20%;
+}
+
+#footer2 {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    width: 20%;
+    
+}
