@@ -2,51 +2,60 @@
 
 <html>
     <head>
-        <title>Google Mock</title>
+        <title>Google Mock Page</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     
     <body>
-        <nav>
-            <ul id="navbar">                    
-                <div id="navbar1">
-                    <li><a href="">About</a></li>
-                    <li><a href="">Store</a></li>
-                </div>
 
-                <div id="navbar2" >
-                    <li><a href="">Gmail</a></li>
-                    <li><a href="">Images</a></li>
-                    <li><a href=""><img id="googleapps" src="googleapps.svg" alt="Google applications button."></a></li>
-                    <li><button id="signin" type="button">Sign in</button></li>
+        <nav>
+
+            <ul>
+                <div id="navbar">
+                    <div id="nav1">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Store</a></li>
+                    </div>
+
+                    <div id="nav2" >
+                        <li><a href="">Gmail</a></li>
+                        <li><a href="">Images</a></li>
+                        <li><a href=""><img style="width:16px;" id="googleapps" src="googleapps.svg" alt="Google applications button."></a></li>
+                        <li><button id="signin" type="button">Sign in</button></li>
+                    </div>
                 </div>
             </ul>
+
         </nav>
 
         <main>
-            <div id="item1"><img id="googlelogo" src="googlelogo_color_272x92dp.png" alt="Google logo."></div>
+            
+            <div id="googlesearch">
+                <div id="gs1"><img id="googlelogo" src="googlelogo_color_272x92dp.png" alt="Google logo."></div>
 
-            <div id="item2">
-                <form id="searchbar">
-                    <label for="search"></label>
-                    <input type="search" id="search">
-                    <img id="searchicon" src="searchicon.svg" alt="A magnifying glass.">
-                </form>
-            </div>
+                <div id="gs2">
+                    <form id="searchbar">
+                        <label for="search"></label>
+                        <input type="search" id="search">
+                    </form>
+                </div>
 
-            <div id="item3">
-                <input form="searchbar" type="submit" value="Google Search">
-                <button class="lucky">I'm Feeling Lucky</button>
+                <div id="gs3">
+                    <input form="searchbar" type="submit" value="Google Search">
+                    <button class="lucky">I'm Feeling Lucky</button>
+                </div>
             </div>
 
         </main>
         
-            <footer id="footer" >
-                <ul id="aboutus">
+        <footer>
+
+            <div id="aboutus">
+                <ul>
                     <div id="footer1" >
                         <li><a href="">Advertising</a></li>
                         <li><a href="">Business</a></li>
-                        <li><a href="">How Search Works</a></li>
+                        <li><a href="">How Search works</a></li>
                     </div>
                         
                     <div id="footer2" >
@@ -55,7 +64,9 @@
                         <li><a href="">Settings</a></li>
                     </div>
                 </ul>
-            </footer>
+            </div>
+
+        </footer>
 
     </body>
 </html>

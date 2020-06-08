@@ -1,10 +1,4 @@
-#navbar {
-    padding: 0;
-    list-style-type: none;
-    font: 13px arial, sans-serif;
-}
-
-#aboutus {
+ul {
     padding: 0;
     list-style-type: none;
     font: 13px arial, sans-serif;
@@ -24,8 +18,6 @@ a:hover {
 }
 
 #googleapps {
-    display: block;
-    width: 16px;
     filter: contrast(10%);
 }
 
@@ -46,28 +38,41 @@ a:hover {
     outline: none;
 }
 
-#navbar1 {   
+#navbar {
+    position: fixed;
+    width: 100vw;
+
+}
+
+#nav1 {   
     display: flex;
     float: left;
-    width: 4.39%;
     justify-content: space-between;
+    align-items: center;
+    width: 4.39%;
     margin: 10px 0px 0px 17px;
 }
 
-#navbar2 {
+#nav2 {
     display: flex;
     float: right;
     justify-content: space-between;
     align-items: center;
-    position: relative;
     width: 11.65%;
-    right: 22px;
-    top: 3px;
+    margin: 2.5px 22px 0 0;
 }
 
-main {
-    display: grid;
-    grid-template-columns: auto;
+#googlesearch {
+    /* Centering */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70.8%);
+    /* Centering */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
 }
 
 #search {
@@ -91,31 +96,31 @@ main {
     align-items: flex-end;
 }
 
-
-#item1 {
-    justify-self: center;
-}
-
-#item2 {
-    justify-self: center;
-    align-items: center;
-}
-
-#item3 {
-    justify-self: center;
+#aboutus {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgb(240, 240, 240);
 }
 
 #footer1 {
     display: flex;
     float: left;
     justify-content: space-between;
-    width: 20%;
+    align-items: center;
+    font-size: 14px;
+    width: 15.45%;
+    margin: 0 0 12px 30px;
+    text-decoration-color: rgb(153, 29, 29);
 }
 
 #footer2 {
     display: flex;
     float: right;
     justify-content: space-between;
-    width: 20%;
-    
+    align-items: center;
+    font-size: 14px;
+    width: 9.85%;
+    margin: 0 30px 0 0;
 }
